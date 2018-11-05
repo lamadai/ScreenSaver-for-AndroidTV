@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context=".ScreenActivity">
+
+    <FrameLayout
+        android:id="@+id/leftView"
+
+        android:layout_width="1280dp"
+        android:layout_height="720dp">
+
+        <!--android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <!-- <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片标题"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/dot_0"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_focused"/>
+
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/dot_1"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/dot_2"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/dot_3"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:visibility="gone"
+                    android:id="@+id/dot_4"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+
+            </LinearLayout>
+        </LinearLayout>-->
+    </FrameLayout>
+
+    <!--<ImageView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/leftView"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/rightImgView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:src="@drawable/right"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <FrameLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leftView"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp">
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rightImgView"
+            android:layout_width="344dp"
+            android:layout_height="216dp"
+            android:background="@drawable/button_style"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rightImgView1"
+            android:layout_marginLeft="370dp"
+            android:layout_width="344dp"
+            android:layout_height="216dp"
+            android:background="@drawable/button_style"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />-->
+
+
+    <!--</FrameLayout>-->
+
+
+</android.support.constraint.ConstraintLayout>
